@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.project.shoplist.kotlin.MainActivity">
+
+    <EditText
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insert Your Name"
+        android:paddingLeft="12dp"
+        android:id="@+id/txtenteryourname"
+        />
+
+    <EditText
+        android:layout_margin="25dp"
+        android:inputType="number"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insert Your Age"
+        android:paddingLeft="12dp"
+        android:id="@+id/txtenteryourage"
+        />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/txtDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+      />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:id="@+id/btnshow"
+        />
+</LinearLayout>
